@@ -1,5 +1,5 @@
 {
-  "name": "nest-jaeger-tracing",
+  "name": "jaeger-tracing",
   "version": "0.0.1",
   "description": "Quick setup for Jaeger in nestjs",
   "author": "Mohammad Sardari",
