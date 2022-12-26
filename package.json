@@ -2,18 +2,26 @@
   "name": "jaeger-tracing",
   "version": "0.0.1",
   "description": "Quick setup for Jaeger in nestjs",
-  "author": "Mohammad Sardari",
-  "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M-Sardari/Jaeger.git"
+  },
+  "author": "Mohammad Sardari <m.sardari@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/M-Sardari/Jaeger/issues"
+  },
+  "homepage": "https://github.com/M-Sardari/Jaeger#readme",
   "dependencies": {
-    "jaeger-client": "^3.19.0",
-    "opentracing": "^0.14.7",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
+    "jaeger-client": "^3.19.0",
+    "opentracing": "^0.14.7",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
   },
